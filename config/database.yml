@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog-dev
+  pool: 5
+  host: localhost
+  username: action
+  password:
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: blog-test
+  pool: 5
+  host: localhost
+  username: action
+  password:
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: blog-prod
+  pool: 5
+  host: localhost
+  username: action
+  password:
