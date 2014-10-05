@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/action/.parts/bin/node',
+1 verbose cli   '/home/action/.parts/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink /home/action/.parts/bin/node
+5 error install Couldn't read dependencies
+6 error package.json ENOENT, open '/home/action/blog/bootstrap-3.2.0-dist/package.json'
+6 error package.json This is most likely not a problem with npm itself.
+6 error package.json npm can't find a package.json file in your current directory.
+7 error System Linux 3.13.4
+8 error command "/home/action/.parts/bin/node" "/home/action/.parts/bin/npm" "install"
+9 error cwd /home/action/blog/bootstrap-3.2.0-dist
+10 error node -v v0.10.26
+11 error npm -v 1.4.3
+12 error path /home/action/blog/bootstrap-3.2.0-dist/package.json
+13 error code ENOPACKAGEJSON
+14 error errno 34
+15 verbose exit [ 34, true ]
